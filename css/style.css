@@ -17,6 +17,9 @@ img {
 
 /* header */
 
+
+
+/* main */
 .row {
     display: flex; 
     gap: 1rem;
@@ -27,7 +30,7 @@ img {
     width: calc(100%/3);    
     min-height: 300px;
     position: relative; 
-    border: 1PX solid black;           
+              
 }
 
 .heart {
@@ -89,9 +92,27 @@ img {
     text-decoration: line-through;
 }
 
+.sostenibility-left{
+    font-size: 1rem;
+    background-color: green;
+    color: white;
+    height: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    width: fit-content;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    position: absolute;
+    bottom: 8rem;
+}
+
+.one-hover:hover{
+    
+
+}
 
 
-/* main */
+
 
 
 /* footer */
