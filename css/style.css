@@ -18,7 +18,6 @@ img {
 /* header */
 
 
-
 /* main */
 .row {
     display: flex; 
@@ -35,7 +34,7 @@ img {
 
 .heart {
     font-size: 2rem;
-    background-color: red;
+    background-color: white;
     padding: 0.5rem;    
     height: 3rem;    
     width: fit-content;
@@ -106,13 +105,29 @@ img {
     bottom: 8rem;
 }
 
-.one-hover:hover{
-    
 
+
+.figure {
+    position: absolute;    
+} 
+
+.top-img {    
+    position: absolute;
+    left: 0;
+    top: 0;
+    
 }
 
+.top-img:hover{
+    z-index: -1;
+    display: none;
+}
 
+.bottom-img:hover{
+    z-index: 3; 
+} 
 
 
 
 /* footer */
+
