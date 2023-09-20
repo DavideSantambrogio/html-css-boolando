@@ -3,3 +3,30 @@
     padding: 0;
     box-sizing: border-box
 }
+
+/* common */
+ .container {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    border: 1px solid black;
+ }
+
+/* header */
+
+.row {
+    display: flex; 
+    gap: 1rem;
+    margin-bottom: 1rem;      
+}
+
+.card {
+    width: calc(100%/3);
+    border: 1px solid black;
+    min-height: 300px;
+    
+}
+/* main */
+
+
+/* footer */
