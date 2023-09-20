@@ -92,7 +92,7 @@ img {
     text-decoration: line-through;
 }
 
-.sostenibility-left{
+.sostenibility-left {
     font-size: 1rem;
     background-color: green;
     color: white;
@@ -106,13 +106,25 @@ img {
     bottom: 8rem;
 }
 
-.one-hover:hover{
-    
+.bottom-img{
+    position: absolute;
+    left: 0%;
+    display: inline-block;    
+}
 
+.top-img{
+    position: absolute;
+    left: 0%;
+        
 }
 
 
-
+.top-img:hover{
+    position: absolute;
+    left: 0%;
+    display: none;
+    
+}
 
 
 /* footer */
