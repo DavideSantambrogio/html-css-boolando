@@ -17,9 +17,44 @@ img {
 
 /* header */
 
+header {
+    background-color: orangered;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    color: white;
+    height: 80px;
+  }
+  
+  header .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header .logo img {
+    height: 40px;    
+  }
+  
+  header ul {
+    display: flex;
+    list-style-type: none;
+    gap: .5rem;
+  }
+
+.flex{
+    padding: 20px;
+}
 
 
 /* main */
+
+main {
+    padding-top:100px;
+  }
+
 .row {
     display: flex; 
     gap: 1rem;
