@@ -12,10 +12,11 @@ img {
  .container {
     width: 80%;
     margin: 0 auto;
-    margin-bottom: 2rem;    
+    
  }
 
 /* header */
+
 
 
 /* main */
@@ -44,6 +45,10 @@ img {
     position:absolute;
     top: 1rem;
     right: 0rem;    
+}
+
+.heart:hover {
+    color: red;
 }
 
 .discount {
@@ -91,7 +96,7 @@ img {
     text-decoration: line-through;
 }
 
-.sostenibility-left{
+.sostenibility-left {
     font-size: 1rem;
     background-color: green;
     color: white;
@@ -105,29 +110,46 @@ img {
     bottom: 8rem;
 }
 
+/* immagini */
 
 
-.figure {
-    position: absolute;    
-} 
+/* se usi approccio con z-index, ggiungi z-index più alto a tutti gli elementi da visualizzare sempre */
 
-.top-img {    
-    position: absolute;
-    left: 0;
-    top: 0;
-    
+/* .top-img {
+    display: block;
+    position: relative;
 }
 
-.top-img:hover{
+.bottom-img {
+    position: absolute;
+    top: 0;
+    left: 0;
     z-index: -1;
+}
+
+.figure:hover .bottom-img {
+    z-index: 1;
+} */
+
+.top-img {
+    display: block;
+}
+
+.figure .bottom-img {
     display: none;
 }
 
-.bottom-img:hover{
-    z-index: 3; 
-} 
+.figure:hover .bottom-img {
+    display: block;
+}
+
+.figure:hover .top-img {
+    display: none;
+}
+
+
+
 
 
 
 /* footer */
-
